@@ -1,0 +1,22 @@
+.social-circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;      /* size of circle */
+  height: 40px;
+  border-radius: 50%;
+  background: black;  /* circle color */
+  margin: 0 5px;
+  overflow: hidden;   /* keeps image inside the circle */
+  transition: background 0.3s;
+}
+
+.social-circle:hover {
+  background: #007bff;  /* optional hover color */
+}
+
+.social-circle img.social-icon {
+  width: 60%;      /* adjust to fit circle */
+  height: 60%;
+  object-fit: contain;
+}
